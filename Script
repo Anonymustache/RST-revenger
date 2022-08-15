@@ -22,6 +22,7 @@ local UICorner_5 = Instance.new("UICorner")
 Core.Name = "Core"
 Core.Parent = game.CoreGui
 Core.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Core.Enabled = false
 
 Frame.Parent = Core
 Frame.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
